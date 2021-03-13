@@ -4,7 +4,7 @@
   "description": "En honor a nuestro libertador.",
   "scripts": {
     "postinstall": "check-node-version --package",
-    "start": "NODE_ENV=development gulp dev --require esm",
+    "start": "gulp dev --require esm",
     "build": "NODE_ENV=production gulp build --require esm",
     "bundle": "NODE_ENV=production gulp bundle --require esm",
     "pretest": "npm run build",

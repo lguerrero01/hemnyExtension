@@ -5,10 +5,10 @@
   "description": "En honor a nuestro libertador.",
   "author": "",
   "icons": {
-    "128": "images/icon.png"
+    "128": "images/hemny1.png"
   },
   "browser_action": {
-    "default_icon": "images/icon.png",
+    "default_icon": "images/hemny1.png",
     "default_popup": "popup.html"
   },
   "options_ui": {
@@ -22,6 +22,7 @@
       "js": ["content.js"]
     }
   ],
+  "permissions": ["storage", "activeTab"],
   "background": {
     "scripts": ["background.js"],
     "persistent": true
